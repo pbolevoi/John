@@ -1,0 +1,448 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Black.eot');
+    src: url('../fonts/Heebo-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Black.woff2') format('woff2'),
+    url('../fonts/Heebo-Black.woff') format('woff'),
+    url('../fonts/Heebo-Black.ttf') format('truetype'),
+    url('../fonts/Heebo-Black.svg#Heebo-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Bold.eot');
+    src: url('../fonts/Heebo-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Bold.woff2') format('woff2'),
+    url('../fonts/Heebo-Bold.woff') format('woff'),
+    url('../fonts/Heebo-Bold.ttf') format('truetype'),
+    url('../fonts/Heebo-Bold.svg#Heebo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Medium.eot');
+    src: url('../fonts/Heebo-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Medium.woff2') format('woff2'),
+    url('../fonts/Heebo-Medium.woff') format('woff'),
+    url('../fonts/Heebo-Medium.ttf') format('truetype'),
+    url('../fonts/Heebo-Medium.svg#Heebo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Regular.eot');
+    src: url('../fonts/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Regular.woff2') format('woff2'),
+    url('../fonts/Heebo-Regular.woff') format('woff'),
+    url('../fonts/Heebo-Regular.ttf') format('truetype'),
+    url('../fonts/Heebo-Regular.svg#Heebo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('../fonts/Vollkorn-Regular.eot');
+    src: url('../fonts/Vollkorn-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vollkorn-Regular.woff2') format('woff2'),
+    url('../fonts/Vollkorn-Regular.woff') format('woff'),
+    url('../fonts/Vollkorn-Regular.ttf') format('truetype'),
+    url('../fonts/Vollkorn-Regular.svg#Vollkorn-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding-top: 27px;
+}
+.container{
+    max-width: 1032px;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+}
+.d_none{
+    display: none;
+}
+.justify_end{
+    justify-content: flex-end
+}
+.m-width_m-auto{
+    max-width: 564px;
+    margin: auto;
+}
+#menu{
+    display: flex;
+    list-style: none
+}
+.menu{
+    display: flex;
+    list-style: none
+}
+header nav li{
+    margin-left: 33px
+}
+header nav li a{
+    font-family: 'Heebo';
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+header nav li:hover a{
+    transform: scale(1.2);
+}
+.main_banner{
+    padding-top: 140px;
+    padding-bottom: 71px;
+}
+.cont_banner{
+    max-width: 858px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start
+}
+.cont2_banner{
+    max-width: 497px
+}
+.main_banner h1{
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 40px
+}
+.p_banner{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 47px;
+    color: #21243D;
+}
+.Download_Resume{
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 13px 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.cont_John_img{
+    max-width: 243px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img_John{
+    width: 100%;
+    display: block;
+}
+.section_form{
+    background: #000000;
+    padding-top: 69px;
+    padding-bottom: 37px
+}
+.cont_form{
+    text-align: center
+}
+#Name{
+    background: rgba(255, 255, 255, 0.18);
+    padding: 18px 31px 17px;
+    border: none; box-sizing: border-box;
+    height: 57px; width: 100%;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+#Name:focus{
+    outline: none;
+}
+#Email{
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    height: 57px;
+    padding: 18px 30px 17px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+#Email:focus{
+    outline: none;
+}
+#Budget{
+    background: rgba(255, 255, 255, 0.18);
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 57px;
+    padding: 18px 31px 17px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;"
+}
+#Budget:focus{
+    outline: none;
+}
+.cont2_form{
+    margin-bottom: 22px
+}
+#Describe{
+    height: 127px;
+    width: 100%; resize: none;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 17px 31px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+#Describe:focus{
+    outline: none;
+}
+.Send_Message{
+    background: transparent;
+    border: solid 1px #7EC4BD;
+    border-bottom: solid 2px #7EC4BD;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 15px 60px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #8BCAC3;
+}
+.cont_foot{
+    justify-content: center;
+    padding-top: 51px;
+    margin: auto
+}
+.icon_foot{
+    width:30px;
+    height: 30px
+}
+.icon_tw{
+    width:36.92px;
+    height: 30px
+}
+.m_left{
+    margin-left: 35px
+}
+.cont2_foot{
+    max-width: 222px;
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+    padding-bottom: 54px;
+    margin: auto
+}
+.p_Copyright{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
+.section_Recent{
+    background-color: #EDF7FA;
+    padding-top: 7px;
+    padding-bottom: 32px;
+}
+.cont_Recent{
+    max-width: 856px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.section_Recent .cont_Recent h3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    align-items: flex-end;
+    color: #21243D;
+}
+.section_Recent .cont_Recent a{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+    text-decoration: none;
+}
+.cont_posts{
+    max-width: 856px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+.making{
+    background: #FFFFFF;
+    max-width: 418px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 27px 24px 23px;
+    margin-right: 20px;
+}
+.cont_posts h2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 17px;
+}
+.cont_posts .span1_making,.span2_making,.span1_creating,.span2_creating{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+.section_Recent .cont_posts .span1_making,.span1_creating{
+    border-right: 1px solid #000000;
+    padding-right: 25px;
+    margin-right: 25px;
+}
+.cont_posts p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-top: 20px;
+}
+.creating{
+    background: #FFFFFF;
+    max-width: 418px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 21px 24px 23px;
+}
+
+
+.section_Featured{
+    padding-top: 15px;
+    padding-bottom: 83px;
+    background-color: #FFFFFF;
+}
+.cont_Featured{
+    max-width: 858px;
+    margin: auto;
+}
+.p_Featured{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 22px;
+}
+.img_Designing{
+    max-width: 246px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.cont_Designing{
+    margin-left: 18px;
+}
+.cont_Designing_h2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+.span1_Designing{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: white;
+    background: #142850;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 62px;
+    display: inline-flex;
+    height: 25px;
+    margin-right: 26px;
+}
+.span2_Designing{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+.p_Designing{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.m_bottom{
+    margin-bottom: 31px;
+}
+.bord_buttom{
+    border-bottom: 1px solid #E0E0E0;;
+}
+.cont_Vibrant{
+    margin-right: 18px;
+}
