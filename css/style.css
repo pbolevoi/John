@@ -444,3 +444,65 @@ header nav li:hover a{
 .cont_Vibrant{
     margin-right: 18px;
 }
+.menu_a_blog{
+    color: #FF6464;
+}
+.main_blog{
+    padding-top: 106px;
+    padding-bottom: 53px;
+}
+.cont_blog{
+    margin: auto;
+    max-width: 681px;
+}
+.main_blog .cont_blog h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.cont_UI1{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 32px;
+}
+.main_blog .cont_UI1 h2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+.main_blog .cont_UI1 .span1_blog{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    margin-right: 20px;
+    border-right: 1px solid #000000;
+    padding-right: 20px;
+}
+.main_blog .cont_UI1 .span2_blog{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.main_blog .cont_UI1 p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    margin-top: 15px;
+    margin-bottom: 29px;
+}
